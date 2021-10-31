@@ -1,0 +1,103 @@
+.card {
+	max-width: $card-width-desktop;
+	background-color: $color-white;
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 2rem;
+	box-shadow: 0 0 3rem rgba($color-black, 0.2);
+
+	&__content {
+		padding: 4.8rem;
+		text-align: center;
+	}
+
+	&__heading {
+		font-size: 2.8rem;
+		font-weight: 900;
+		line-height: 1;
+		margin-bottom: 2rem;
+		color: $color-dark-blue;
+	}
+
+	&__text {
+		color: $color-desturated-blue;
+	}
+
+	&__music {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		height: 10rem;
+		margin: 2rem 0;
+		background-color: $color-very-pale-blue;
+		border-radius: 1rem;
+		padding: 1rem;
+	}
+
+	&__annual {
+		margin-left: -3rem;
+
+		&-heading,
+		&-price {
+			font-size: 1.6rem;
+		}
+
+		&-heading {
+			color: $color-dark-blue;
+			font-weight: 900;
+		}
+
+		&-price {
+			color: $color-desturated-blue;
+			font-weight: 500;
+		}
+	}
+
+	&__link {
+		color: $color-primary-dark;
+		font-size: 1.4rem;
+		font-weight: 700;
+		transition: all 0.2s ease;
+
+		&:hover {
+			color: rgba($color-primary-dark, 0.7);
+			text-decoration: none;
+		}
+	}
+
+	&__button {
+		background-color: $color-primary-dark;
+		display: block;
+		width: 100%;
+		border: none;
+		border-radius: 1rem;
+		padding: 2rem 0;
+		color: $color-white;
+		font-size: 1.5rem;
+		font-weight: 900;
+		box-shadow: 0 2rem 3rem rgba($color-primary-dark, 0.2);
+		cursor: pointer;
+		transition: all 0.2s ease;
+
+		&:hover {
+			background-color: rgba($color-primary-dark, 0.7);
+		}
+	}
+
+	&__cancel {
+		display: inline-block;
+		margin-top: 2rem;
+		text-decoration: none;
+		color: $color-desturated-blue;
+		font-size: 1.5rem;
+		font-weight: 900;
+		transition: all 0.2s ease;
+
+		&:hover {
+			color: $color-dark-blue;
+		}
+	}
+}

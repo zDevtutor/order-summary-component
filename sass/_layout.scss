@@ -1,0 +1,21 @@
+.container {
+	position: relative;
+	width: 100%;
+	min-height: 130vh;
+	background: url('../images/pattern-background-desktop.svg')
+		$color-primary-light;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	@include respond(tab-port) {
+		min-height: 100vh;
+	}
+
+	@include respond(phone) {
+		background: url('../images/pattern-background-mobile.svg')
+			$color-primary-light;
+		background-repeat: no-repeat;
+		background-size: contain;
+		min-height: 100vh;
+	}
+}
