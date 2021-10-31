@@ -45,7 +45,7 @@ The site was deployed to Vercel. The steps to deploy are as follows:
 - Open the Vercel website and login (Signup if you don't have an account)
 - Create a new project and import the Git repository.
 
-The live link can be found here - https://order-summary-component.vercel.app/
+The live link can be found here - https://order-summary-component-xi-murex.vercel.app/
 
 ## Credits
 
