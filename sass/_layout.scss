@@ -11,6 +11,10 @@
 		min-height: 100vh;
 	}
 
+	@include respond(land-regular) {
+		min-height: 200vh;
+	}
+
 	@include respond(phone) {
 		background: url('../images/pattern-background-mobile.svg')
 			$color-primary-light;
